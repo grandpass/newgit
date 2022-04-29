@@ -16,6 +16,18 @@ public class WebPageOpening{
 		//WebDriver driver = new ChromeDriver();
 	   driver.get("https://demo.guru99.com/test/newtours/");
 	   driver.manage().window().maximize();
+	   
+	   
+	   
+	   System.out.println("new");
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
 	   driver.findElement(By.linkText("REGISTER")).click();
 	   WebElement first=  driver.findElement(By.name("firstName"));
 	   first.sendKeys("sara");
